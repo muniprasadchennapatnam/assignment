@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔥 STICKY HEADER -->
+<div id="top-header">hello sir</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="logo">flipkart</div>
+  <ul class="nav-links">
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Explore</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <button onclick="zoomBy(-0.2)">Zoom -</button>
+  <span id="zoom-text">100%</span>
+  <button onclick="zoomBy(0.2)">Zoom +</button>
+</div>
+
+<!-- IMAGE -->
+<div id="movable-img">
+  <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
